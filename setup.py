@@ -35,14 +35,6 @@ setup(
               'bin/ddg2pdb',
               'bin/ddg2summary'],
 
-    install_requires=[ 'biopython',
-                       'matplotlib',
-		       'numpy',
-                       'scipy',
-                       'six',
-                       'openpyxl',
-                       'pyyaml',
-                       'adjustText>=0.8'],
     package_data={
         '': ['LICENSE', '*.md'],
     },

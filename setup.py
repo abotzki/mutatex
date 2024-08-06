@@ -35,7 +35,7 @@ setup(
               'bin/ddg2pdb',
               'bin/ddg2summary'],
     
-    install_requires=[ 'biopython==1.78',
+    install_requires=[ 'biopython==1.81',
                        'matplotlib',
 	               'numpy',
                        'scipy',

@@ -35,9 +35,9 @@ setup(
               'bin/ddg2pdb',
               'bin/ddg2summary'],
     
-    install_requires=[ 'biopython=1.78',
+    install_requires=[ 'biopython==1.78',
                        'matplotlib',
-	        	       'numpy',
+	               'numpy',
                        'scipy',
                        'six',
                        'openpyxl',

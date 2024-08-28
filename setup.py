@@ -36,7 +36,7 @@ setup(
               'bin/ddg2summary'],
     
     install_requires=[ 'biopython==1.81',
-                       'matplotlib',
+                       'matplotlib==3.2.1',
 	               'numpy',
                        'scipy',
                        'six',
